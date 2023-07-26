@@ -13,7 +13,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body class="w-[90%] bg-white mx-auto">
+  <body class="w-[100%] bg-white mx-auto overflow-hidden">
     <!-- navbar -->
 
     <nav
@@ -28,13 +28,17 @@
         <li>All Fruits</li>
       </ul>
       <div class="flex gap-2 items-center">
-        <img src="./images/logo.png" alt="" />
+        <img class="w-[44px] md:w-[50px]" src="./images/logo.png" alt="" />
 
-        <h1 class="text-white text-4xl">Fruit Burst</h1>
+        <h1 class="text-white md:text-4xl">Fruit Burst</h1>
       </div>
 
       <div class="relative">
-        <input placeholder="search here" class="rounded-3xl border-0  w-[200px] py-3 px-2 bg-white" type="text" />
+        <input
+          placeholder="search here"
+          class="rounded-3xl relative left-[45px] md:left-0 border-0 md:w-[200px] w-[150px] py-3 px-2 bg-white"
+          type="text"
+        />
         <img
           class="absolute top-3 left-[167px] w-[24px]"
           src="./images/icons8-search.svg"
@@ -42,5 +46,113 @@
         />
       </div>
     </nav>
+
+    <!-- carousel -->
+    <div class="carousel mx-6 w-auto">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="./images/banner1.png" class="w-full text-center relative" />
+        <div class="absolute flex justify-center md:top-[35%] md:left-[40%] left-[10%]">
+          <div>
+            <h1 class="md:text-4xl md:font-semibold text-amber-300">
+              Exotic tastes at your doorstep
+            </h1>
+            <h1 class="md:text-4xl md:font-semibold text-amber-300">doorstep</h1>
+            <p class="md:font-bold md:text-xl text-amber-300">
+              We supply highly quality organic products
+            </p>
+        
+            <button
+              class="bg-blue-600 text-white rounded-md flex justify-center absolute top-16 md:top-[150px] md:left-0 left-16 py-2 px-2 md:py-3 md:px-2"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+        >
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="./images/banner2.png" class="w-full relative" />
+        <div class="absolute flex justify-center md:top-[35%] md:left-[40%] left-[10%]">
+            <div>
+              <h1 class="md:text-4xl md:font-semibold text-amber-300">
+                Exotic tastes at your doorstep
+              </h1>
+              <h1 class="md:text-4xl md:font-semibold text-amber-300">doorstep</h1>
+              <p class="md:font-bold md:text-xl text-amber-300">
+                We supply highly quality organic products
+              </p>
+          
+              <button
+                class="bg-blue-600 text-white rounded-md flex justify-center absolute top-16 md:top-[150px] md:left-0 left-16 py-2 px-2 md:py-3 md:px-2"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+        >
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+        <img src="./images/banner3.png" class="w-full relative" />
+        <div class="absolute flex justify-center md:top-[35%] md:left-[40%] left-[10%]">
+            <div>
+              <h1 class="md:text-4xl md:font-semibold text-amber-300">
+                Exotic tastes at your doorstep
+              </h1>
+              <h1 class="md:text-4xl md:font-semibold text-amber-300">doorstep</h1>
+              <p class="md:font-bold md:text-xl text-amber-300">
+                We supply highly quality organic products
+              </p>
+          
+              <button
+                class="bg-blue-600 text-white rounded-md flex justify-center absolute top-16 md:top-[150px] md:left-0 left-16 py-2 px-2 md:py-3 md:px-2"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+        >
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide4" class="carousel-item relative w-full">
+        <img src="./images/banner4.png" class="w-full relative" />
+        <div class="absolute flex justify-center md:top-[35%] md:left-[40%] left-[10%]">
+            <div>
+              <h1 class="md:text-4xl md:font-semibold text-amber-300">
+                Exotic tastes at your doorstep
+              </h1>
+              <h1 class="md:text-4xl md:font-semibold text-amber-300">doorstep</h1>
+              <p class="md:font-bold md:text-xl text-amber-300">
+                We supply highly quality organic products
+              </p>
+          
+              <button
+                class="bg-blue-600 text-white rounded-md flex justify-center absolute top-16 md:top-[150px] md:left-0 left-16 py-2 px-2 md:py-3 md:px-2"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+        >
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
