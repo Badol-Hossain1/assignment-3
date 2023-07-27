@@ -13,14 +13,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body class="w-[100%] bg-white mx-auto">
+  <body class="w-[100%] bg-white overflow-x-hidden mx-auto">
     <!-- navbar -->
-
+<br>
     <nav
-      class="grid bg-[#F85559] rounded-lg p-4 grid-cols-4 m-6 justify-center"
+      class="grid bg-[#F85559] rounded-lg p-4 grid-cols-4  m-6 justify-center"
     >
       <ul
-        class="md:flex cursor-pointer hidden items-center col-span-2 text-white text-xl gap-6"
+        class="md:flex cursor-pointer hidden  items-center col-span-2 text-white text-xl gap-6"
       >
         <li>Home</li>
         <li>About us</li>
@@ -48,9 +48,9 @@
     </nav>
 
     <!-- carousel -->
-    <div class="carousel mx-6 w-auto">
+    <div class="carousel  mx-6 w-auto">
       <div id="slide1" class="carousel-item relative w-full">
-        <img src="./images/banner1.png" class="w-full text-center relative" />
+        <img  src="./images/banner1.png" class="w-full text-center relative" />
         <div
           class="absolute flex justify-center lg:top-[35%] md:top-[20%] lg:left-[40%] md:left-[10%] left-[10%]"
         >
@@ -171,10 +171,21 @@
       </div>
     </div>
 
+
+
+    <!-- extra -->
+    <div class="md:flex hidden justify-center p-4 relative rounded-lg bg-white bottom-[70px] w-[50%] mx-auto shadow-xl">
+        <img src="./images/fruit1.png" alt="">
+        <img src="./images/fruit2.png" alt="">
+        <img src="./images/fruit3.png" alt="">
+        <img src="./images/fruit4.png" alt="">
+        <img src="./images/fruit5.png" alt="">
+    </div>
+
     <!-- main section -->
 
     <main>
-      <div class="md:flex mx-6 justify-between mt-10">
+      <div class="md:flex mx-6 justify-between mt-6 md:mt-10">
         <div class="">
           <h1 class="text-3xl font-bold text-black">Deal of the day</h1>
           <p class="md:mt-0 mt-6 text-black">
@@ -689,49 +700,51 @@
 
     <!-- Why Choose Us section -->
 
-    <div>
+    <div class="mt-20">
       <h1 class="text-4xl font-bold text-center text-black">Why Choose Us</h1>
       <p class="text-center text-black mt-4">
         Contrary to popular belief, is not simply random text. It has roots in a
         piece of classical Latin literature from 45 BC, making it over 2000
         years old.
       </p>
-      <div class="grid items-center gap-10 mt-10 w-[75%] mx-auto grid-cols-1 md:grid-cols-3">
+      <div
+        class="grid items-center gap-10 mt-10 w-[75%] mx-auto grid-cols-1 md:grid-cols-3"
+      >
         <div>
           <div class="flex items-center gap-4">
             <img class="w-[140px]" src="./images/icons8-person-48.png" alt="" />
             <div>
               <div class="">
-                <h1 class="text-black font-bold text-xl">Dedicated Team</h1>
+                <h1 class="text-black font-bold text-xl mt-4">Dedicated Team</h1>
               </div>
-              <div class="border border-sky-500"></div>
-              <p>
+              <div class="border mt-4 border-sky-500"></div>
+              <p class="mt-4">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
             </div>
           </div>
           <div class="flex mt-4 items-center gap-4">
-            <img class="w-[140px]" src="./images/icons8-person-48.png" alt="" />
+            <img class="w-[140px]" src="./images/icons8-fruits-64.png" alt="" />
             <div>
               <div class="">
-                <h1 class="text-black font-bold text-xl">Dedicated Team</h1>
+                <h1 class="text-black font-bold text-xl mt-4">Fresh is Best</h1>
               </div>
-              <div class="border border-sky-500"></div>
-              <p>
+              <div class="border mt-4 border-sky-500"></div>
+              <p class="mt-4">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
             </div>
           </div>
           <div class="mt-4 flex items-center gap-4">
-            <img class="w-[140px]" src="./images/icons8-person-48.png" alt="" />
+            <img class="w-[140px]" src="./images/icons8-gift-48.png" alt="" />
             <div>
               <div class="">
-                <h1 class="text-black font-bold text-xl">Dedicated Team</h1>
+                <h1 class="text-black font-bold text-xl mt-4">Gift Certificates</h1>
               </div>
-              <div class="border border-sky-500"></div>
-              <p>
+              <div class="border mt-4 border-sky-500"></div>
+              <p class="mt-4">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
@@ -744,59 +757,65 @@
         <div>
           <div>
             <div class="flex mt-4 items-center gap-4">
-              <img
-                class="w-[140px]"
-                src="./images/icons8-person-48.png"
-                alt=""
-              />
               <div>
                 <div class="">
-                  <h1 class="text-black font-bold text-xl">Dedicated Team</h1>
+                  <h1 class="text-black mt-4 font-bold text-xl">
+                    Integrated Supplier
+                  </h1>
                 </div>
-                <div class="border border-sky-500"></div>
-                <p>
+                <div class="border mt-4 border-sky-500"></div>
+                <p class="mt-4">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
               </div>
+              <img
+                class="w-[140px]"
+                src="./images/icons8-icecream-64.png"
+                alt=""
+              />
             </div>
           </div>
           <div>
             <div class="flex mt-4 items-center gap-4">
-              <img
-                class="w-[140px]"
-                src="./images/icons8-person-48.png"
-                alt=""
-              />
               <div>
                 <div class="">
-                  <h1 class="text-black font-bold text-xl">Dedicated Team</h1>
+                  <h1 class="text-black mt-4 font-bold text-xl">
+                    Sustainable Practice
+                  </h1>
                 </div>
-                <div class="border border-sky-500"></div>
-                <p>
+                <div class="border mt-4 border-sky-500"></div>
+                <p class="mt-4">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
               </div>
+              <img
+                class="w-[140px]"
+                src="./images/icons8-love-48.png"
+                alt=""
+              />
             </div>
           </div>
           <div>
             <div class="flex mt-4 items-center gap-4">
-              <img
-                class="w-[140px]"
-                src="./images/icons8-person-48.png"
-                alt=""
-              />
               <div>
                 <div class="">
-                  <h1 class="text-black font-bold text-xl">Dedicated Team</h1>
+                  <h1 class="text-black mt-4 font-bold text-xl">
+                    The Benefits Only
+                  </h1>
                 </div>
-                <div class="border border-sky-500"></div>
-                <p>
+                <div class="border mt-4 border-sky-500"></div>
+                <p class="mt-4">
                   Professional employees are there for you to pick the most
                   amazing and fresh fruits.
                 </p>
               </div>
+              <img
+                class="w-[140px]"
+                src="./images/icons8-like-48.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -804,7 +823,7 @@
     </div>
     <!-- footer -->
 
-    <footer class="bg-black mt-10 p-20">
+    <footer class="bg-black mt-20  p-20">
       <div class="flex items-center gap-4 justify-center">
         <img src="./images/logo.png" alt="" />
         <h1 class="text-3xl text-white">Fruit Burst</h1>
